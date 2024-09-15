@@ -1,14 +1,15 @@
 using mangas.Services.Feacture.Mangas;
+using mangas.Infraestructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<MangaService>();
-builder.Services.AddControllers();
+builder.Services.AddScoped<MangaRepository>();
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<MangaService>();
 
 var app = builder.Build();
 
