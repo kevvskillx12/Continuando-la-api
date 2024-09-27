@@ -33,3 +33,5 @@ C:\Users\Kevin\Desktop\Mangas\obj\Debug\net8.0\Mangas.genruntimeconfig.cache
 C:\Users\Kevin\Desktop\Mangas\obj\Debug\net8.0\ref\Mangas.dll
 C:\Users\Kevin\Desktop\Mangas\obj\Debug\net8.0\Mangas.sourcelink.json
 C:\Users\Kevin\Desktop\Mangas\bin\Debug\net8.0\Infraestructure\Data\javerages.library.data.json
+C:\Users\Kevin\Desktop\Mangas\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Kevin\Desktop\Mangas\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
